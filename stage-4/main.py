@@ -116,7 +116,6 @@ class CommentPage(webapp2.RequestHandler):
     else:
       # Write to the Google Database
       comment.put()
-      webbrowser.open('http://www.google.com')
       # Redirect to the comments section after posting a comment
       self.redirect("/?" + comments_name + "#comment-section")
 
