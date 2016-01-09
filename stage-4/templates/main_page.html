@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <html style="margin: 0px;">
+    <head>
+      <meta charset="UTF-8">
+      <title>David Venturi's IPND Notes</title>
+      <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+      <h1 style="margin: 1.7vh; height: 10vh; font-size: 7vh; white-space: nowrap;">David Venturi's IPND Notes</h1>
+      {% for stage in stages %}
+        <!-- If the stage number is an even number: -->
+        {% if stage.stage_number % 2 == 0 %}
+          <a href="{{stage.stage_url}}" style="text-decoration: none; color: black;">
+            <!--Use a parent-child div method to center the text vertically within the div. See http://vanseodesign.com/css/vertical-centering/ "Line Height Method" for
+            reference.-->
+            <div style="margin: 0px;">
+              <div class="even-stage">{{stage.stage_title}}</div>
+            </div>
+          </a>
+        <!-- If the stage number is an odd number: -->
+        {% else %}
+          <a href="{{stage.stage_url}}" style="text-decoration: none; color: black;">
+            <div style="margin: 0px;">
+              <div class="odd-stage">{{stage.stage_title}}</div>
+            </div>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </body>
+  </html>
