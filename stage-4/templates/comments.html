@@ -1,0 +1,42 @@
+{% extends "notes.html" %}
+
+{% block comments %}
+  <div class="comment-section" id="comment-section">
+    <div class="post-comment">
+      <!-- Display the error message if the user posts a blank comment. ;) -->
+      {% if error %}
+        <div class="comment-error">
+          <iframe src="https://streamable.com/e/308h?autoplay=1" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen scrolling="no"></iframe>
+        </div>
+        <div class="comment-error-text">
+          The comment you posted is a blank space, which is invalid.
+        </div>
+      {% endif %}
+      <div>
+        Logged in as: <strong>{{user_name}}</strong><br>
+        <a href="{{user_url}}">{{user_url_linktext}}</a>
+      </div>
+      <form method="post">
+        <textarea name="content"></textarea><br>
+        <input type="submit" value="Post Comment">
+      </form>
+    </div>
+    <!-- Iterate through the comments query results and display each comment. -->
+    {% for comment in comments %}
+      <!-- Check if the current signed-in user matches with the author's identity from this particular comment. -->
+      {% if user and user.user_id() == comment.author.identity %}
+        <div class="comment">
+          <strong>(You) {{comment.author.name|e}}</strong> wrote:
+          <blockquote>{{comment.content|e}}</blockquote>
+          <div class="comment-time">{{'{cd:%B} {cd.day}, {cd.year} | {cd.hour}:{cd:%m}'.format(cd=comment.date)}}</div>
+        </div>
+      {% else %}
+        <div class="comment">
+          <strong>{{comment.author.name|e}}</strong> wrote:
+          <blockquote>{{comment.content|e}}</blockquote>
+          <div class="comment-time">{{'{cd:%B} {cd.day}, {cd.year} | {cd.hour}:{cd:%m}'.format(cd=comment.date)}}</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endblock %}
