@@ -1,30 +1,31 @@
 * {
     margin: 10px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    /*Changes the font of the whole page to a nicer looking font*/
+}
+
+html {
+    margin: 0px;
 }
 
 body {
    margin: 0px;
-   background-color: #FAFAFA;
+   background-color: #FAFAFA; /* Outermost background is off-white */
 }
 
 h1 {
     text-align: center;
     background: rgba(255,0,0,0.45);
-    /*The decimal value in the fourth slot makes the content semi-transparent*/
 }
 
 span {
+    /* Emphasizes key words in the notes */
     font-weight: bold;
     margin: 0px;
-    /*Emphasizes certain words in the text*/
 }
 
 a {
-    color: red;
+    color: #FF0C2C; /* Hyperlinks are red */
     margin: 0px;
-    /*Makes the hyperlinks red*/
 }
 
 li {
@@ -35,11 +36,10 @@ img {
     max-width: 50%;
     min-width: 400px;
     margin: 0px;
-    /*Sets all images to a minimum size (based on pixels) and maximum size (percentage-based on browser window)*/
+    /* Centers the images */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /*Centers the images*/
 }
 
 textarea {
@@ -51,14 +51,42 @@ input {
     margin: 0px;
 }
 
+iframe {
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.odd-stage {
+    height: 15.62vh;
+    white-space: nowrap;
+    background: rgba(225,225,255,0.7);
+    text-align: center;
+    font-size: 6vh;
+    margin: 1.7vh;
+    line-height: 14.5vh;
+}
+
+.even-stage {
+    height: 15.62vh;
+    white-space: nowrap;
+    background: rgba(225,255,225,0.9);
+    text-align: center;
+    font-size: 6vh;
+    margin: 1.7vh;
+    line-height: 14.5vh;
+}
+
 .toc {
-    background: rgba(225,225,255,0.9);
+    background: rgba(225,255,225,0.9); /* TOC is translucent green */
     padding: 5px;
 }
 
+/* Notes content (lesson through concept) are various translucencies of blue */
+
 .lesson {
-    display: flex;
-    /*Allows the lesson content to be positioned side by side with the lesson title*/
+    display: flex; /* Positions lesson content alongside lesson title */
     background: rgba(225,225,255,0.4);
 }
 
@@ -71,14 +99,13 @@ input {
     vertical-align: middle;
     padding: 5px;
     background: rgba(225,225,255,0.7);
-    /*Sets the width of the lesson title panel to 100 pixels*/
 }
 
 .lesson-info {
     background: rgba(225,225,255,0.4);
     margin-left: 0px;
-    width: 100%;
-    /*Sets the width of the lesson information to be the remainder of the whole browser width*/
+    width: 100%; /* Sets the width of the lesson information equal to the
+                    remainder of the browser width */
 }
 
 .concept {
@@ -86,8 +113,9 @@ input {
 }
 
 .concept-title {
-    margin-left:0px;
-    color: #FF0C2C;
+    padding-top: 0.3px;
+    margin-bottom: -4px;
+    color: #FF0C2C; /* Concept title is red */
 }
 
 .concept-description {
@@ -100,16 +128,40 @@ input {
 }
 
 .post-comment {
-    background: #FAFAFA;
+    background: #FAFAFA; /* Comment submission box is off-white */
     padding: 5px;
+    padding-top: 1px;
 }
 
 .comment {
-    background: #FAFAFA;
+    background: #FAFAFA; /* Individual comment boxes are off-white */
     padding: 5px;
 }
 
 .comment-time {
-    color: red;
+    color: #FF0C2C; /* Comment time is red */
     margin-bottom: 3px;
+}
+
+.comment-error {
+    /* Formats the error message box when the user posts a blank comment */
+    margin-left: 0px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 0px;
+    position: relative;
+    padding-top: 4px;
+    padding-bottom: 56.250%;
+}
+
+.comment-error-text {
+    /* Formats the error text when the user posts a blank comment */
+    color: #FF0C2C;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quote {
+    margin-left: 25px;
 }
