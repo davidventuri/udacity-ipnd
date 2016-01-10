@@ -1,13 +1,16 @@
 {% extends "base.html" %}
 
 {% block content %}
+  <a href="/" class="notes-page-banner">
+    <h1>David Venturi's IPND Notes</h1>
+  </a>
   {% for stage in stages %}
-    {% if stage.stage_url in current_url %}
+    {% if stage.stage_url == current_path %}
       <div class="toc">
         <h2>{{stage.stage_title}}</h2>
         <ol>
           {% for lesson in stage.lessons %}
-            <li><a href="#{{lesson.lesson_id}}">{{lesson.lesson_title}}</a>
+            <li><h3><a href="#{{lesson.lesson_id}}">{{lesson.lesson_title}}</a></h3>
               <ul>
                 {% for concept in stage.concepts[lesson.lesson_number-1] %}
                   <li><a href="#{{concept.concept_id}}">{{concept.concept_title}}</a></li>
@@ -15,7 +18,7 @@
               </ul>
             </li>
           {% endfor %}
-          <li><a href="#comment-section">Comments</a></li>
+          <li><h3><a href="#comment-section">Comments</a></h3></li>
         </ol>
       </div>
       {% for lesson in stage.lessons %}
