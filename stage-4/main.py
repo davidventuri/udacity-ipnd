@@ -56,8 +56,8 @@ class StageNotes(Handler):
     def get(self):
         # Set comments name key to the stage number of the current page
         current_path = self.request.path
-        stage_number_in_path = 7
-        current_stage_number = current_path[stage_number_in_path]
+        stage_number_index = 7
+        current_stage_number = current_path[stage_number_index]
         comments_name = "stage-" + current_stage_number + "-comments"
 
         # [START query]
@@ -89,8 +89,8 @@ class StageNotes(Handler):
         """Posts a comment on the notes page using a post request."""
         # Set comments name key to the stage number of the current page
         current_path = self.request.path
-        stage_number_in_path = 7
-        current_stage_number = current_path[stage_number_in_path]
+        stage_number_index = 7
+        current_stage_number = current_path[stage_number_index]
         comments_name = "stage-" + current_stage_number + "-comments"
 
         comment = Comment(parent=comments_key(comments_name))
