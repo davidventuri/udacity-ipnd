@@ -23,7 +23,7 @@
     </div>
     <!-- Iterate through the comments query results and display each comment. -->
     {% for comment in comments %}
-      <!-- Check if the current signed-in user matches with the author's identity from this particular comment. -->
+      <!-- Check if the signed-in user matches with the author's identity from this particular comment. -->
       {% if user and user.user_id() == comment.author.identity %}
         <div class="comment">
           <strong>(You) {{comment.author.name|e}}</strong> wrote:
