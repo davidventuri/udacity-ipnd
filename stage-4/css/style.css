@@ -15,18 +15,59 @@ body {
 h1 {
     text-align: center;
     background: rgba(255,0,0,0.45);
+    height: 10vh;
+    font-size: 7vh;
+    white-space: nowrap;
+}
+
+h1.main-page {
+    margin: 1.7vh; /* Make the margin of the main page proportional to the stage divs */
 }
 
 span {
-    /* Emphasizes key words in the notes */
-    font-weight: bold;
+    font-weight: bold; /* Emphasize key words in the notes */
     margin: 0px;
 }
 
+/* [START HYPERLINK STYLING] */
 a {
-    color: #FF0C2C; /* Hyperlinks are red */
+    color: #FF0C2C;
     margin: 0px;
+    text-decoration: none;
 }
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a.main-page-banner {
+    color: black;
+    text-decoration: none;
+}
+
+a.main-page-banner:hover {
+    color: rgba(225,255,225,1);
+}
+
+a.stage-title {
+    color: black;
+    text-decoration: none;
+}
+
+a.stage-title:hover {
+    color: rgba(255,0,0,0.6);
+}
+
+a.notes-page-banner {
+    color: black;
+    text-decoration: none;
+}
+
+a.notes-page-banner:hover {
+    color: rgba(225,225,255,1);
+}
+/* [END HYPERLINK STYLING] */
 
 li {
     margin: 0px;
@@ -36,10 +77,10 @@ img {
     max-width: 50%;
     min-width: 400px;
     margin: 0px;
-    /* Centers the images */
-    display: block;
+    display: block;  /* Center the image */
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 6px;
 }
 
 textarea {
@@ -58,14 +99,22 @@ iframe {
     position: absolute;
 }
 
+/* The parent container styling for the parent-child div method for vertical */
+/* text centering. See main_page.html for details. */
+.parent-container {
+    margin: 0px;
+}
+
+/* Along with .even-stage below, the child container styling for the parent- */
+/* child method for vertical text centering. See main_page.html for details. */
 .odd-stage {
     height: 15.62vh;
-    white-space: nowrap;
     background: rgba(225,225,255,0.7);
     text-align: center;
     font-size: 6vh;
     margin: 1.7vh;
     line-height: 14.5vh;
+    white-space: nowrap;
 }
 
 .even-stage {
@@ -76,6 +125,7 @@ iframe {
     font-size: 6vh;
     margin: 1.7vh;
     line-height: 14.5vh;
+    white-space: nowrap;
 }
 
 .toc {
@@ -83,10 +133,10 @@ iframe {
     padding: 5px;
 }
 
-/* Notes content (lesson through concept) are various translucencies of blue */
+/* The next four classes are various translucencies of blue */
 
 .lesson {
-    display: flex; /* Positions lesson content alongside lesson title */
+    display: flex; /* Position lesson content alongside lesson title */
     background: rgba(225,225,255,0.4);
 }
 
@@ -104,7 +154,7 @@ iframe {
 .lesson-info {
     background: rgba(225,225,255,0.4);
     margin-left: 0px;
-    width: 100%; /* Sets the width of the lesson information equal to the
+    width: 100%; /* Set the width of the lesson information equal to the
                     remainder of the browser width */
 }
 
@@ -143,8 +193,7 @@ iframe {
     margin-bottom: 3px;
 }
 
-.comment-error {
-    /* Formats the error message box when the user posts a blank comment */
+.comment-error { /* Format the error message box when the user posts a blank comment */
     margin-left: 0px;
     margin-top: -10px;
     margin-bottom: 25px;
@@ -155,8 +204,7 @@ iframe {
     padding-bottom: 56.250%;
 }
 
-.comment-error-text {
-    /* Formats the error text when the user posts a blank comment */
+.comment-error-text { /* Format the error text when the user posts a blank comment */
     color: #FF0C2C;
     font-weight: bold;
     text-align: center;
