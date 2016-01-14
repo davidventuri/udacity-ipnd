@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300' rel='stylesheet' type='text/css'>
+<style>
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 50px 0 0 0;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 30px 0 0 0;
+}
+
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 40px 0;
+  font-weight: 300;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: rgba(200,200,200,1);
+  background: linear-gradient(bottom, rgba(200,200,200,1), rgba(200,200,200,.6));
+  background: -webkit-linear-gradient(bottom, rgba(200,200,200,1), rgba(200,200,200,.6));
+  background: -moz-linear-gradient(bottom, rgba(200,200,200,1), rgba(200,200,200,.6));
+  padding: 10px;
+  border-radius: 12px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 60px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("http://i.imgur.com/fWLL5zK.png");
+}
+
+.second{
+  background-image: url("http://i.imgur.com/3AkErXh.png");
+}
+
+.dessert{
+  background-image: url("http://i.imgur.com/ZBg7jPR.png");
+}
+
+.price {
+  float: right;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 36px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 15px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+</style>
+</head>
+
+<body>
+  <h1>david's art</h1>
+  <h2>pictures i drew in paint</h2>
+  <div class="first">
+    <p>
+      man in field thinking<span class="price">$1 million</span><br />
+      <small>Man in field thinking thoughts with sun in sky and grass on ground.</small>
+    </p>
+  </div>
+  <div class="second">
+    <p>
+      confused boat in space<span class="price">$0.3 trillion</span><br />
+      <small>Confused boat in space with the moon and two stars.</small>
+    </p>
+  </div>
+  <div class="dessert">
+    <p>
+      dog with basketball head<span class="price">1 dollar</span><br />
+      <small>Brown dog with a basketball for a head (no it is not a pumpkin).</small>
+    </p>
+  </div>
+  <script>
+    $('div').on('click', function() {
+        $(this).toggleClass('show-description');
+    });
+  </script>
+  <br />
+  <br />
+</body>
