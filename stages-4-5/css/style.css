@@ -15,8 +15,6 @@ body {
 h1 {
     text-align: center;
     background: rgba(255,0,0,0.45);
-    height: 10vh;
-    font-size: 7vh;
     white-space: nowrap;
 }
 
@@ -110,18 +108,36 @@ iframe {
     position: absolute;
 }
 
-.main-page {
-    margin: 1.7vh; /* Make the margin of the main page proportional to the stage divs
-                      and their margins */
-}
-
-.bio {
+.bio-main-page {
+    /* Make the height, margin, and font-size of the main page proportional
+       to the viewport height (percentage totals to 100%) */
     background: rgba(225,225,255,0.7);
     text-align: center;
-    height: 3vh;
-    font-size: 2.1vh;
+    height: 3.8vh;
+    font-size: 2.66vh;
     white-space: nowrap;
+    margin: 1.7vh;
+}
 
+.bio-notes-page {
+    background: rgba(225,225,255,0.7);
+    text-align: center;
+    height: 23px;
+    font-size: 16.1px;
+    white-space: nowrap;
+}
+
+.h1-main-page {
+    /* Make the height, margin, and font-size of the main page proportional
+       to the viewport height (percentage totals to 100%) */
+    height: 10vh;
+    font-size: 7vh;
+    margin: 1.7vh;
+}
+
+.h1-notes-page {
+    height: 60px;
+    font-size: 42px;
 }
 
 /* The parent container styling for the parent-child div method for vertical */
@@ -133,7 +149,7 @@ iframe {
 /* Along with .even-stage below, the child container styling for the parent- */
 /* child method for vertical text centering. See main_page.html for details. */
 .odd-stage {
-    height: 14.68vh;
+    height: 14.52vh;
     background: rgba(225,255,225,0.9);
     text-align: center;
     font-size: 5.2vh;
@@ -143,7 +159,7 @@ iframe {
 }
 
 .even-stage {
-    height: 14.68vh;
+    height: 14.52vh;
     white-space: nowrap;
     background: rgba(225,225,255,0.7);
     text-align: center;
