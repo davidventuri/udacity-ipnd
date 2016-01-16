@@ -8,8 +8,8 @@ html {
 }
 
 body {
-   margin: 0px;
-   background-color: #FAFAFA; /* Outermost background is off-white */
+    margin: 0px;
+    background-color: #FAFAFA; /* Outermost background is off-white */
 }
 
 h1 {
@@ -20,8 +20,21 @@ h1 {
     white-space: nowrap;
 }
 
-h1.main-page {
-    margin: 1.7vh; /* Make the margin of the main page proportional to the stage divs */
+input {
+    margin: 7px 0 0 0;
+    border: 0;
+    padding: 8px;
+    font-size: 12px;
+}
+
+input[type="submit"] {
+    background: rgba(255,0,0,0.7);
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background: #FF0C2C;
+    color: white;
 }
 
 span {
@@ -31,7 +44,7 @@ span {
 
 /* [START HYPERLINK STYLING] */
 a {
-    color: #FF0C2C;
+    color: #FF0C2C; /* Hyperlinks are red */
     margin: 0px;
     text-decoration: none;
 }
@@ -41,13 +54,24 @@ a:hover {
     text-decoration: underline;
 }
 
-a.main-page-banner {
+a.bio-link {
+    padding: 5px 25px;
+    color: black;
+    font-weight: bold;
+}
+
+a.bio-link:hover {
+    text-decoration: none;
+    color: rgba(255,0,0,0.7);
+}
+
+a.banner {
     color: black;
     text-decoration: none;
 }
 
-a.main-page-banner:hover {
-    color: rgba(225,255,225,1);
+a.banner:hover {
+    color: rgba(225,225,255,1);
 }
 
 a.stage-title {
@@ -56,16 +80,7 @@ a.stage-title {
 }
 
 a.stage-title:hover {
-    color: rgba(255,0,0,0.6);
-}
-
-a.notes-page-banner {
-    color: black;
-    text-decoration: none;
-}
-
-a.notes-page-banner:hover {
-    color: rgba(225,225,255,1);
+    color: rgba(255,0,0,0.7);
 }
 /* [END HYPERLINK STYLING] */
 
@@ -88,15 +103,25 @@ textarea {
     width: 99%;
 }
 
-input {
-    margin: 0px;
-}
-
 iframe {
     margin-left: 0px;
     width: 100%;
     height: 100%;
     position: absolute;
+}
+
+.main-page {
+    margin: 1.7vh; /* Make the margin of the main page proportional to the stage divs
+                      and their margins */
+}
+
+.bio {
+    background: rgba(225,225,255,0.7);
+    text-align: center;
+    height: 3vh;
+    font-size: 2.1vh;
+    white-space: nowrap;
+
 }
 
 /* The parent container styling for the parent-child div method for vertical */
@@ -108,21 +133,21 @@ iframe {
 /* Along with .even-stage below, the child container styling for the parent- */
 /* child method for vertical text centering. See main_page.html for details. */
 .odd-stage {
-    height: 15.62vh;
-    background: rgba(225,225,255,0.7);
+    height: 14.68vh;
+    background: rgba(225,255,225,0.9);
     text-align: center;
-    font-size: 6vh;
+    font-size: 5.2vh;
     margin: 1.7vh;
     line-height: 14.5vh;
     white-space: nowrap;
 }
 
 .even-stage {
-    height: 15.62vh;
+    height: 14.68vh;
     white-space: nowrap;
-    background: rgba(225,255,225,0.9);
+    background: rgba(225,225,255,0.7);
     text-align: center;
-    font-size: 6vh;
+    font-size: 5.2vh;
     margin: 1.7vh;
     line-height: 14.5vh;
     white-space: nowrap;
