@@ -60,9 +60,9 @@ stage_1_concepts = [
                                "The distinction between HTML tags, elements, and "
                                "attributes was murky for me at first. Luckily, this "
                                "resource from <a href='http://www.456bereastreet.com/a"
-                               "rchive/200508/html_tags_vs_elements_vs_attributes/'> "
-                               "456 Berea Street</a> provided some clarity. In "
-                               "summary:"
+                               "rchive/200508/html_tags_vs_elements_vs_attributes/'"
+                               "target='_blank'> 456 Berea Street</a> provided some"
+                               " clarity. In summary:"
                              "</p>"
                              "<ul>"
                                "<li>An <span>element</span> in HTML represents some "
@@ -99,9 +99,10 @@ stage_1_concepts = [
                                "description, but inline elements flow along with text "
                                "content while block elements form an invisible paragraph"
                                " box for its content. <a href='http://www.impressivewebs"
-                               ".com/difference-block-inline-css/'>Impressive Webs</a> "
-                               "has a thorough description of the many characteristics "
-                               "that differentiate inline and block elements."
+                               ".com/difference-block-inline-css/' target='_blank'>"
+                               "Impressive Webs</a> has a thorough description of the "
+                               "many characteristics that differentiate inline and block"
+                               " elements."
                              "</p>")
                     ],
 
@@ -112,14 +113,20 @@ stage_1_concepts = [
                                "These nested elements form a <span>tree-like structure"
                                "</span>. This visual representation is called the "
                                "document object model, or <span>DOM</span> (see <a "
-                               "href='https://css-tricks.com/dom/'>What is the DOM?"
-                               "</a> and the image below for details):<br>"
-                               "<img src='http://www.webstepbook.com/supplements/slide"
-                               "s/images/dom_tree.gif' alt='DOM Tree visualization' "
-                               "style='padding-top:12px; padding-bottom: 0px;'>"
+                               "href='https://css-tricks.com/dom/' target='_blank'>"
+                               "What is the DOM?</a> and the image below for details)"
+                               ":<br><img src='http://www.webstepbook.com/supplements/"
+                               "slides/images/dom_tree.gif' alt='DOM Tree visualization'"
+                               " style='padding-top:12px; padding-bottom: 0px;'>"
                              "</p>"),
 
                      Concept("lesson-2-2", "How Web Browsers Interpret HTML",
+                             "<p>"
+                               "This <a href='https://www.addedbytes.com/articles/for-beg"
+                               "inners/the-box-model-for-beginners/' target='_blank'>Added"
+                               " Bytes page</a> is what Buzz is referring to below with "
+                               "regards to how web browsers interpret HTML:"
+                             "</p>"
                              "<img src='http://blog.personalministorage.com/wp-content/up"
                              "loads/2014/07/boxes-everywhere.jpg' alt='Buzz Lightyear: "
                              "Boxes, boxes everywhere'>"),
@@ -164,10 +171,11 @@ stage_1_concepts = [
                                " decides which CSS property values are the most relevant"
                                " to an element and therefore will be applied (via <a "
                                "href='https://developer.mozilla.org/en-US/docs/Web/CSS/"
-                               "Specificity'>Mozilla Developer Network</a>). The "
-                               "hierarchy of specificity power can be found on <a href='"
-                               "http://www.smashingmagazine.com/2007/07/css-specificity-"
-                               "things-you-should-know/'>this website</a>."
+                               "Specificity' target='_blank'>Mozilla Developer Network</a>"
+                               "). The hierarchy of specificity power can be found on this"
+                               " <a href='http://www.smashingmagazine.com/2007/07/css-"
+                               "specificity-things-you-should-know/#specificity-hierarchy'"
+                               " target='_blank'>website</a>."
                              "</p>"),
 
                      Concept("lesson-3-3", "The Importance of Having Good Style and "
@@ -197,10 +205,11 @@ stage_2_concepts = [
                     [
                      Concept("lesson-1-1", "Puppies",
                              "<p>"
-                               "Neatly manicured notes content was not the deliverable for"
+                               "Neatly packaged notes content was not the deliverable for"
                                " this stage so please refer to <a href='http://learn-2-co"
-                               "de.appspot.com/nanodegree_notes/course/2/#lesson-2'>"
-                               "Andy's Notes</a> and enjoy this picture of two puppies."
+                               "de.appspot.com/nanodegree_notes/course/2/#lesson-2' target"
+                               "='_blank'>Andy's Notes</a> and enjoy this picture of two "
+                               "puppies."
                              "</p>"
                              "<img src='http://www.hd-wallpapersdownload.com/upload/bulk"
                              "-upload/cute-dog-images-with-words-dowload.jpg' alt='Two "
@@ -208,36 +217,39 @@ stage_2_concepts = [
                     ],
 
                     [
-                     Concept("lesson-1-1", "Monkey",
+                     Concept("lesson-2-1", "Monkey",
                              "<p>"
-                               "Neatly manicured notes content was not the deliverable for"
+                               "Neatly packaged notes content was not the deliverable for"
                                " this stage so please refer to <a href='http://learn-2-co"
-                               "de.appspot.com/nanodegree_notes/course/2/#lesson-3'>"
-                               "Andy's Notes</a> and enjoy this picture of a monkey."
+                               "de.appspot.com/nanodegree_notes/course/2/#lesson-3' target"
+                               "='_blank'>Andy's Notes</a> and enjoy this picture of a "
+                               "monkey."
                              "</p>"
                              "<img src='https://shechive.files.wordpress.com/2011/01/cut"
                              "e-animals-4.jpg?quality=94&strip=info&w=920' alt='A monkey'>")
                     ],
 
                     [
-                     Concept("lesson-1-1", "Kitten",
+                     Concept("lesson-3-1", "Kitten",
                              "<p>"
-                               "Neatly manicured notes content was not the deliverable for"
+                               "Neatly packaged notes content was not the deliverable for"
                                " this stage so please refer to <a href='http://learn-2-co"
-                               "de.appspot.com/nanodegree_notes/course/2/#lesson-4'>"
-                               "Andy's Notes</a> and enjoy this picture of a kitten."
+                               "de.appspot.com/nanodegree_notes/course/2/#lesson-4' target"
+                               "='_blank'>Andy's Notes</a> and enjoy this picture of a "
+                               "kitten."
                              "</p>"
                              "<img src='https://i.ytimg.com/vi/3dzUgmpXPX0/hqdefault.jpg"
                              "' alt='A kitten'>")
                     ],
 
                     [
-                     Concept("lesson-1-1", "Bunny Rabbit",
+                     Concept("lesson-4-1", "Bunny Rabbit",
                              "<p>"
-                               "Neatly manicured notes content was not the deliverable for"
+                               "Neatly packaged notes content was not the deliverable for"
                                " this stage so please refer to <a href='http://learn-2-co"
-                               "de.appspot.com/nanodegree_notes/course/2/#lesson-5'>"
-                               "Andy's Notes</a> and enjoy this picture of a bunny rabbit."
+                               "de.appspot.com/nanodegree_notes/course/2/#lesson-5' target"
+                               "='_blank'>Andy's Notes</a> and enjoy this picture of a "
+                               "bunny rabbit."
                              "</p>"
                              "<img src='http://7-themes.com/data_images/out/40/6907695-"
                              "cute-animals.jpg' alt='A bunny rabbit'>")
@@ -252,12 +264,13 @@ stage_3_lessons = [
 
 stage_3_concepts = [
                     [
-                     Concept("lesson-1-1", "Baby Harp Seal",
+                     Concept("lesson-1-1", "Harp Seal",
                              "<p>"
-                               "Neatly manicured notes content was not the deliverable for"
+                               "Neatly packaged notes content was not the deliverable for"
                                " this stage so please refer to <a href='http://learn-2-co"
-                               "de.appspot.com/nanodegree_notes/course/3/#lesson-1'>"
-                               "Andy's Notes</a> and enjoy this picture of a baby harp seal."
+                               "de.appspot.com/nanodegree_notes/course/3/#lesson-1' target"
+                               "='_blank'>Andy's Notes</a> and enjoy this picture of a "
+                               "baby harp seal."
                              "</p>"
                              "<img src='http://hdwallnpics.com/wp-content/gallery/cute-"
                              "pictures-of-animals/animals_hdwallpaper_cute-animal_73158"
@@ -265,24 +278,26 @@ stage_3_concepts = [
                     ],
 
                     [
-                     Concept("lesson-1-1", "Frog",
+                     Concept("lesson-2-1", "Frog",
                              "<p>"
-                               "Neatly manicured notes content was not the deliverable for"
+                               "Neatly packaged notes content was not the deliverable for"
                                " this stage so please refer to <a href='http://learn-2-co"
-                               "de.appspot.com/nanodegree_notes/course/3/#lesson-2'>"
-                               "Andy's Notes</a> and enjoy this picture of a frog."
+                               "de.appspot.com/nanodegree_notes/course/3/#lesson-2' target"
+                               "='_blank'>Andy's Notes</a> and enjoy this picture of a "
+                               "frog."
                              "</p>"
                              "<img src='https://pixabay.com/static/uploads/photo/2015/09"
                              "/06/20/31/frog-927764_960_720.jpg' alt='A frog'>")
                     ],
 
                     [
-                     Concept("lesson-1-1", "Deer",
+                     Concept("lesson-3-1", "Deer",
                              "<p>"
-                               "Neatly manicured notes content was not the deliverable for"
+                               "Neatly packaged notes content was not the deliverable for"
                                " this stage so please refer to <a href='http://learn-2-co"
-                               "de.appspot.com/nanodegree_notes/course/3/#lesson-5'>"
-                               "Andy's Notes</a> and enjoy this picture of a deer."
+                               "de.appspot.com/nanodegree_notes/course/3/#lesson-5' target"
+                               "='_blank'>Andy's Notes</a> and enjoy this picture of a "
+                               "deer."
                              "</p>"
                              "<img src='http://animals.ekstrax.com/wp-content/uploads/20"
                              "14/09/beautiful-and-cute-animals-wallpaper-23.jpg' alt='A "
@@ -321,7 +336,7 @@ stage_4_concepts = [
                                "</span>), while a POST request sends its parameters in"
                                "the request body, just under the headers (<a href= '"
                                "http://igoro.com/archive/what-really-happens-when-you-"
-                               "navigate-to-a-url/'>source</a>)."
+                               "navigate-to-a-url/' target='_blank'>source</a>)."
                              "</p>"
                              "<p>"
                                "The request line is followed by a number of <span>"
@@ -369,7 +384,7 @@ stage_4_concepts = [
                                ". The first digit (between 1 and 5) defines the class "
                                "of the status code, where the following meanings are "
                                "observed (<a href='http://www.w3.org/Protocols/rfc2616"
-                               "/rfc2616-sec6.html'>source</a>):"
+                               "/rfc2616-sec6.html' target='_blank'>source</a>):"
                                  "<ul>"
                                    "<li>1xx: Informational. Request received, "
                                    "continuing process.</li>"
@@ -412,8 +427,8 @@ stage_4_concepts = [
                                "processing it further. Not validating input is one of "
                                "the greatest mistakes that web application developers "
                                "can make (<a href='http://searchsoftwarequality.techta"
-                               "rget.com/tip/The-importance-of-input-validation'>"
-                               "source</a>)."
+                               "rget.com/tip/The-importance-of-input-validation' "
+                               "target='_blank'>source</a>)."
                              "</p>"
                              "<p>"
                                "<span>Input validation</span> means verifying on the "
@@ -436,9 +451,9 @@ stage_4_concepts = [
                              "</p>"
                              "<p>"
                                "<a href='http://searchsoftwarequality.techtarget.com/"
-                               "tip/The-importance-of-input-validation'>This page</a> "
-                               "has detailed information on several types of input "
-                               "attacks and their consequences."
+                               "tip/The-importance-of-input-validation' target='_blank'>"
+                               "This page</a> has detailed information on several types "
+                               "of input attacks and their consequences."
                              "</p>"),
 
                      Concept("lesson-2-3", "User Experience",
@@ -447,7 +462,7 @@ stage_4_concepts = [
                                "because it provides a medium for conversation with "
                                "users and guides them through the difficult times of "
                                "errors and uncertainty (<a href='http://designmodo.com"
-                               "/ux-form-validation/'>source</a>)."
+                               "/ux-form-validation/' target='_blank'>source</a>)."
                              "</p>"
                              "<p>"
                                "<span>HTML escaping</span> is also important for user "
@@ -470,11 +485,12 @@ stage_4_concepts = [
                                "defined in separate sections and/or files. This "
                                "modular approach allows programmers to avoid "
                                "repetition. <a href='https://discussions.udacity.com/t"
-                               "/why-and-how-adding-jinja-to-my-notes/42435/2'>"
-                               "andrew_R</a> from the Udacity discussion forum has a "
-                               "great anecdote for why templates are useful:"
-                               "<img src='http://i.imgur.com/0BEf98w.png' style='padding-top: 12px; padding-bottom: 0px;' alt='andrew_R from"
-                               " the discussion forum discussing templates'"
+                               "/why-and-how-adding-jinja-to-my-notes/42435/2' target="
+                               "'_blank'>andrew_R</a> from the Udacity discussion forum"
+                               " has a great anecdote for why templates are useful:"
+                               "<img src='http://i.imgur.com/0BEf98w.png' style='"
+                               "padding-top: 12px; padding-bottom: 0px;' alt='andrew_R"
+                               " from the discussion forum discussing templates'"
                              "</p>"),
 
                      Concept("lesson-3-2", "How Templates Help Programmers Avoid "
@@ -519,10 +535,114 @@ stage_5_lessons = [
                    Lesson(1, "lesson-1", "Meet Javascript"),
                    Lesson(2, "lesson-2", "The Power of APIs"),
                    Lesson(3, "lesson-3", "Recursion and Parallel Computing"),
-                   Lesson(4, "lesson-4", "Solving Big Problems"),
-                   Lesson(5, "lesson-5", "Responsive Web Design")
+                   Lesson(4, "lesson-4", "Responsive Web Design"),
+                   Lesson(5, "lesson-5", "Solving Big Problems")
                   ]
-stage_5_concepts = []
+stage_5_concepts = [
+                    [
+                     Concept("lesson-1-1", "Llama",
+                             "<p>"
+                               "Stephen Chapman provides a great JavaScript overview on "
+                               "<a href='http://javascript.about.com/od/reference/p/javas"
+                               "cript.htm' target='_blank'>About.com</a>. Here is a quick "
+                               "summary:"
+                               "<ul>"
+                                 "<li>JavaScript is a programming language that is used "
+                                 "to make web pages interactive.</li>"
+                                 "<li>It runs on your visitor's computer and doesn't require"
+                                 " constant downloads from your website.</li>"
+                                 "<li>JavaScript and Java are two completely different "
+                                 "computer languages. Only their names are similar.</li>"
+                                 "<li>JavaScript support is built right into all the major "
+                                 "web browsers. Provided that the visitors to your site are"
+                                 " using web browsers that support JavaScript (most do) and"
+                                 " have JavaScript enabled (it is by default), then your "
+                                 "JavaScript will run when they visit the page.</li>"
+                                 "<li>JavaScript is an interpreted language, so no special "
+                                 "program is required to create usable code.</li>"
+                                 "<li>JavaScript can go in the same file as HTML, however "
+                                 "your scripts will be more easily reused on multiple pages"
+                                 " of your site if you place them in separate files (using "
+                                 "a .js extension). You then just link the JavaScript to "
+                                 "your HTML by inserting a &lt;script&gt; tag in the HTML "
+                                 "file.</li>"
+                               "</ul>"
+                             "</p>"
+                             "<p>"
+                               "This <a href='http://www.w3schools.com/js/js_intro.asp' "
+                               "target='_blank'>W3Schools page</a> lists some examples"
+                               " of what JavaScript can do. Here is a quick summary:"
+                               "<ul>"
+                                 "<li>JavaScript can change HTML content.</li>"
+                                 "<li>JavaScript can change HTML attributes.</li>"
+                                 "<li>JavaScript can change HTML styles (CSS).</li>"
+                                 "<li>JavaScript can validate data.</li>"
+                               "</ul>"
+                             "</p>"
+                             "<p>"
+                               "Click me to make me <span>DANCE!</span> Below is an example"
+                               " of JavaScript modifying HTML content:"
+                             "</p>"
+                             "<img id='myImage' onclick='changeImage()' "
+                             "src='http://i.imgur.com/BBLXmzG.jpg' alt='A llama'>"
+                             "<script src='/scripts/llamaDance.js'></script>")
+                    ],
+
+                    [
+                     Concept("lesson-2-1", "Fennec Fox",
+                             "<p>"
+                               "Neatly packaged notes content was not the deliverable for"
+                               " this stage so please refer to these <a href='https://www"
+                               ".quora.com/What-is-an-API' target='_blank'>Quora answers"
+                               "</a> and enjoy this picture of a fennec fox."
+                             "</p>"
+                             "<img src='http://images6.alphacoders.com/426/426613.jpg' "
+                             "alt='A fennec fox'>")
+                    ],
+
+                    [
+                     Concept("lesson-3-1", "Bear Cubs",
+                             "<p>"
+                               "Neatly packaged notes content was not the deliverable for"
+                               " this stage so please refer to this <a href='http://programm"
+                               "ers.stackexchange.com/questions/25052/in-plain-english-what-"
+                               "is-recursion' target='_blank'>StackExchange page</a> "
+                               "and this <a href='https://en.wikipedia.org/wiki/Parallel_"
+                               "computing' target='_blank'>Wikipedia article</a> and "
+                               "enjoy this picture of two bear cubs."
+                             "</p>"
+                             "<img src='http://www.wildnatureimages.com/images%202/050612-1"
+                             "00..jpg' alt='Two bear cubs'>")
+                    ],
+
+                    [
+                     Concept("lesson-4-1", "Tea Cup Pig",
+                             "<p>"
+                               "Neatly packaged notes content was not the deliverable for"
+                               " this stage so please refer to this <a href='https://deve"
+                               "lopers.google.com/web/fundamentals/design-and-ui/responsi"
+                               "ve/fundamentals/?hl=en' target='_blank'>Google Developers"
+                               " page</a> and enjoy this picture of a baby tea cup pig."
+                             "</p>"
+                             "<img src='https://41.media.tumblr.com/tumblr_lx9jqwbrnR1ql7i"
+                             "mwo1_1280.jpg' alt='A baby tea cup pig'>")
+                    ],
+
+                    [
+                     Concept("lesson-4-1", "Wolf Cub",
+                             "<p>"
+                               "Neatly packaged notes content was not the deliverable for "
+                               "this stage so please refer to this <a href='http://www.bbc"
+                               ".co.uk/education/guides/zqqfyrd/revision' target='_blank'>"
+                               "BBC page on decomposition</a>, which was a key concept in "
+                               "Peter Norvig's <a href='https://www.udacity.com/courses/cs"
+                               "212' target='_blank'>Design of Computer Programs</a> class"
+                               ", and enjoy this picture of a howling arctic wolf cub."
+                             "</p>"
+                             "<img src='http://i.imgur.com/Aa7s8wZ.jpg' alt='A howling "
+                             "arctic wolf cub'>")
+                    ]
+                   ]
 
 stages = [
          Stage(1, "Stage 1: Webpages, Documents, and Structure",
