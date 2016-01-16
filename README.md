@@ -15,4 +15,4 @@ Built a Mad Libs-style game to leverage the power of functions in Python and mas
 
 
 ### Stage 4: The Full Stack & Stage 5: Explore!
-- [The final product](http://david-venturi-ipnd-notes.appspot.com/)
+- [The final product](http://david-venturi-ipnd-notes.appspot.com/) (currently not optimized for mobile)
