@@ -16,7 +16,7 @@ Built a Mad Libs-style game to leverage the power of functions in Python and mas
 Created a simple movie website with images and trailers, this project demonstrates knowledge of Object Oriented Programming.
 - HTML
 - CSS
-- Python
+- Python classes and OOP
 
 ### Stage 4: The Full Stack & Stage 5: Explore!
 [The final product](http://david-venturi-ipnd-notes.appspot.com/) (currently not optimized for mobile)
