@@ -19,7 +19,7 @@ Created a simple movie website with images and trailers, this project demonstrat
 - Python classes and OOP
 
 ### Stage 4: The Full Stack & Stage 5: Explore!
-[The final product](http://david-venturi-ipnd-notes.appspot.com/) (currently not optimized for mobile)
+[The final product](http://david-venturi-ipnd-notes.appspot.com/) (currently not optimized for mobile). Built a Python back end using Google App Engine, Jinja2 HTML templates, and a database to host a web page online and allow user comments. Demonstrated further understanding of JavaScript.
 - Google App Engine
 - GET & POST requests
 - Database setup
