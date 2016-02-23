@@ -6,4 +6,3 @@
 - Database setup
 - Database querying
 - JavaScript
-- 
