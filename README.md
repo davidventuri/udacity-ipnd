@@ -1,4 +1,4 @@
-# [Udacity IPND](https://www.udacity.com/nanodegrees-new-s/nd000)
+# [Udacity Intro to Programming Nanodegree](https://www.udacity.com/nanodegrees-new-s/nd000)
 Projects for Udacity's Intro to Programming Nanodegree
 
 ### Stage 1: Webpages, Documents, and Structure
