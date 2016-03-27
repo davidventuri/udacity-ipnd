@@ -1,8 +1,6 @@
 # [Udacity Intro to Programming Nanodegree](https://www.udacity.com/nanodegrees-new-s/nd000)
 Projects for Udacity's Intro to Programming Nanodegree
 
-![Udacity Intro to Programming Nanodegree Certificate](http://i.imgur.com/0WcvnKE.png)
-
 ### Stage 1: Webpages, Documents, and Structure
 Built using HTML and CSS, this project demonstrates knowledge of basic website design.
 - HTML
@@ -28,3 +26,5 @@ Created a simple movie website with images and trailers, this project demonstrat
 - Database setup
 - Database querying
 - JavaScript
+
+![Udacity Intro to Programming Nanodegree Certificate](http://i.imgur.com/0WcvnKE.png)
