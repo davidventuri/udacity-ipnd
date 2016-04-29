@@ -1,5 +1,5 @@
 # <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000" target="_blank">Udacity Intro to Programming Nanodegree</a>
-Projects for Udacity's Intro to Programming Nanodegree
+Projects for my Udacity Intro to Programming Nanodegree
 
 ### Stage 1: Webpages, Documents, and Structure
 Built using HTML and CSS, this project demonstrates knowledge of basic website design.
