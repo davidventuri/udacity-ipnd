@@ -211,8 +211,8 @@ stage_2_concepts = [
                                "='_blank'>Andy's Notes</a> and enjoy this picture of two "
                                "puppies."
                              "</p>"
-                             "<img src='http://www.hd-wallpapersdownload.com/upload/bulk"
-                             "-upload/cute-dog-images-with-words-dowload.jpg' alt='Two "
+                             "<img src='http://www.themalaysiantimes.com.my/wp-content/uplo"
+                             "ads/2015/04/Gorgeous_puppies-685x320.jpg' alt='Two "
                              "puppies'>")
                     ],
 
@@ -251,8 +251,9 @@ stage_2_concepts = [
                                "='_blank'>Andy's Notes</a> and enjoy this picture of a "
                                "bunny rabbit."
                              "</p>"
-                             "<img src='http://7-themes.com/data_images/out/40/6907695-"
-                             "cute-animals.jpg' alt='A bunny rabbit'>")
+                             "<img src='http://images.animalpicturesociety.com/images/00/3"
+                             "_2_bunnies-bunny-rabbits-16437969-1280-800.jpg' alt='A bunny"
+                             " rabbit'>")
                     ]
                    ]
 
@@ -272,9 +273,8 @@ stage_3_concepts = [
                                "='_blank'>Andy's Notes</a> and enjoy this picture of a "
                                "baby harp seal."
                              "</p>"
-                             "<img src='http://hdwallnpics.com/wp-content/gallery/cute-"
-                             "pictures-of-animals/animals_hdwallpaper_cute-animal_73158"
-                             ".jpg' alt='A baby harp seal'>")
+                             "<img src='http://67.media.tumblr.com/tumblr_luf1dxSfwd1r6987k"
+                             "o1_1280.jpg' alt='A baby harp seal'>")
                     ],
 
                     [
@@ -286,8 +286,8 @@ stage_3_concepts = [
                                "='_blank'>Andy's Notes</a> and enjoy this picture of a "
                                "frog."
                              "</p>"
-                             "<img src='https://pixabay.com/static/uploads/photo/2015/09"
-                             "/06/20/31/frog-927764_960_720.jpg' alt='A frog'>")
+                             "<img src='http://amphibianrescue.org/amphibianwordpress/wp-c"
+                             "ontent/uploads/2010/11/20090330-031MM.jpg' alt='A frog'>")
                     ],
 
                     [
