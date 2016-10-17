@@ -4,3 +4,5 @@ Built using HTML and CSS, this project demonstrates knowledge of basic website d
 - CSS
 - Structured documents
 - HTML classes
+
+[View project](http://venturidb.github.io/udacity-ipnd-stage-1/)
