@@ -38,7 +38,7 @@ Built a Python back end using Google App Engine, Jinja2 HTML templates, and a da
 - Database querying
 - JavaScript
 
-[View project](http://david-venturi-ipnd-notes.appspot.com/) (not optimized for mobile)
+[View project](http://david-venturi-ipnd-notes.appspot.com/) (not optimized for mobile). Submit a blank comment to experience a game-changing UI feature.
 
 <hr>
 
