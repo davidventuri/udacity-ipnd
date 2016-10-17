@@ -27,7 +27,7 @@ Created a simple movie website with images and trailers, this project demonstrat
 - CSS
 - Python classes and Object Oriented Programming
 
-[Link to project website](http://venturidb.github.io/fresh-tomatoes/)
+[View project](http://venturidb.github.io/fresh-tomatoes/)
 
 ### Stage 4: The Full Stack & Stage 5: Explore!
 Built a Python back end using Google App Engine, Jinja2 HTML templates, and a database to host a web page online and allow user comments. Demonstrated further understanding of JavaScript.
