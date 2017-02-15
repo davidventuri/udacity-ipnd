@@ -5,4 +5,4 @@ Created a simple movie website with images and trailers, this project demonstrat
 - CSS
 - Python classes and Object Oriented Programming
 
-[View project](http://venturidb.github.io/fresh-tomatoes/)
+[View project](http://davidventuri.github.io/fresh-tomatoes/)
