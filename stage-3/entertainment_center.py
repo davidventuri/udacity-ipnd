@@ -4,7 +4,7 @@ import fresh_tomatoes
 # Six instances of the class Movie
 big_hero_6 = media.Movie(
     "Big Hero 6",
-    "http://cdn.collider.com/wp-content/uploads/big-hero-6-poster-baymax-hi-res.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/4/4b/Big_Hero_6_%28film%29_poster.jpg",
     "https://www.youtube.com/watch?v=z3biFxZIJOQ",
     "Briskly-paced, action-packed, and often touching. Big Hero 6's powerful "
     "storyline is an incredible motivator for kids and adults to go into "
@@ -13,7 +13,7 @@ big_hero_6 = media.Movie(
 
 babadook = media.Movie(
     "The Babadook",
-    "http://www.joblo.com/posters/images/full/babadook_poster.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/d/d7/The-Babadook-Poster.jpg",
     "https://www.youtube.com/watch?v=k5WQZzDRVtw",
     "A descent into madness for both the characters and the audience. The "
     "Babadook had me questioning my own sanity. Can't recall any other horror "
@@ -22,7 +22,7 @@ babadook = media.Movie(
 
 citizenfour = media.Movie(
     "Citizenfour",
-    "http://www.wichitaorpheum.com/wp-content/uploads/2014/12/citizenfour-poster.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/3/37/Citizenfour_poster.jpg",
     "https://www.youtube.com/watch?v=XiGwAvd5mvM",
     "Part real-life thriller, part sobering examination of 21st century civil "
     "liberties, Citizenfour transcends ideology to offer riveting, must-see "
